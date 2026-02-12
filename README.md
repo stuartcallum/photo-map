@@ -15,7 +15,11 @@ To recreate this project with the same configuration:
 
 ```sh
 # recreate this project
+<<<<<<< HEAD
+bun x sv create --template minimal --types ts --add mcp="ide:claude-code+setup:remote" --install bun pm
+=======
 npx sv create --template minimal --types ts --install npm photo-map
+>>>>>>> origin/main
 ```
 
 ## Developing
